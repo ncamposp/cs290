@@ -1,0 +1,31 @@
+table{
+    border-style:solid;
+}
+th, td{
+    border-style:solid;
+}
+/* class outer-content */
+#outer-content{
+    background-color:pink;
+    margin-top: 20px;
+    width: 75%;
+    height:100px;
+}
+/* class inner-content */ 
+#inner-content{
+    background-color:#63F1FD;
+    width: 75%;
+    margin: auto;
+    height: 25px;
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+tbody > tr:nth-of-type(2n){
+  background:#45FB45;
+}
+
+tbody > tr:nth-of-type(2n+1){
+  background:#18FFD5;
+}
+
