@@ -1,7 +1,13 @@
-console.log("Lets make sure JavaScript is working.");
-var name = "Noe"; //Replace this with your first name
-console.log("The unicode characters of your name are:")
-for (var i = 0; i < name.length; i++){
-	console.log(name.charCodeAt(i));
+var x = addFiveAlt(10);
+
+function addFiveAlt(x){
+	return x + 5;
 }
-console.log("Copy and paste these values for activity credit.")
+console.log("This example above DOES work: ", x);
+console.log("----------------------------------");
+
+var y = addFive(10);
+var addFive = function (x){
+	return x + 5;
+}
+console.log("This example above does NOT work: ", y);
